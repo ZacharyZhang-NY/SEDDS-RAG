@@ -10,7 +10,7 @@ Built with Next.js + LangChain
 - 支持演示模式  
 
 用户管理：
-![center](public/screenshots/center.png)  
+![center](public/screenshots/control-center.png)  
 
 知识库管理：
 ![base](public/screenshots/base.png)  
