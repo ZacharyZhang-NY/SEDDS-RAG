@@ -25,7 +25,7 @@ Built with Next.js + LangChain
 2. `/public` 下放置 `icon.png`
 3. 在 .env 中配置相应的环境变量
 3. 确保 Docker 和 Docker Compose 已安装
-4. 运行 `docker-compose up -d` 启动服务
+4. 运行 `docker-compose up --build -d` 启动服务 （后续可省略 --build flag)
 
 
 ## Acknowledgements  
