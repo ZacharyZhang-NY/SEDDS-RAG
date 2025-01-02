@@ -1,32 +1,35 @@
 # Enterprise RAG Template  
 ![Home](public/screenshots/home.png)  
 
-用于企业、组织的 RAG (检索增强生成) 模板  
+[简体中文](README-zh.md)  
+
+
+Template for enterprise and organizational RAG (Retrieval-Augmented Generation)  
 Built with Next.js + LangChain
 
-- 内置管理后台，可配置注册邮箱域
-- 可视化内部文档管理面板，支持 Markdown
-- 文本补全适配 OpenAI API 格式语法，可适配 Kimi AI、阿里巴巴通义千问文本向量等接口，满足合规性要求
-- 支持演示模式  
+- Built-in admin dashboard with configurable email domain registration
+- Visualized internal document management panel supporting Markdown
+- Text completion adapted to OpenAI API syntax, compatible with Kimi AI, Alibaba Tongyi Qianwen text vectors, and other interfaces for compliance requirements
+- Supports demo mode  
 
-用户管理：
+User Management:  
 ![center](public/screenshots/control-center.png)  
 
-知识库管理：
+Knowledge Base Management:  
 ![base](public/screenshots/base.png)  
 
-可视化 Markdown 编辑器
-![editor](public/screenshots/editor.png)
+Visual Markdown Editor:  
+![editor](public/screenshots/editor.png)  
 
-## 使用方法  
-请先 clone 本仓库或下载 zip 文件  
+## Usage Instructions  
+Please clone this repository or download the zip file.
 
-1. 在 `siteConfig.ts` 中配置基础内容
-2. `/public` 下放置 `icon.png`
-3. 在 .env 中配置相应的环境变量
-3. 确保 Docker 和 Docker Compose 已安装
-4. 运行 `docker-compose up --build -d` 启动服务 （后续可省略 --build flag)
-
+1. Configure basic settings in `siteConfig.ts`
+2. Place `icon.png` under `/public`
+3. Set the necessary environment variables in `.env`
+4. Ensure Docker and Docker Compose are installed
+5. Run `docker-compose up --build -d` to start the service (you can omit the `--build` flag for subsequent runs)
 
 ## Acknowledgements  
 - [Vercel Next.js AI Chatbot](https://vercel.com/templates/next.js/nextjs-ai-chatbot)
+
